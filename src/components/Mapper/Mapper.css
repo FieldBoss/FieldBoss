@@ -1,0 +1,39 @@
+#map { 
+    position: absolute; 
+    top: 60px; 
+    height: 620px; 
+    width: 1270px; 
+    left: 25px; 
+    border: 4px solid #061033;
+}
+
+#map-container {
+    position: absolute; 
+    top: 60px; 
+    height: 620px; 
+    width: 970px; 
+    left: 25px; 
+    border: 7px solid #061033;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup.tip {
+    background-color: rgb(204, 211, 137);
+    height: 220px;
+    width: 220px;
+    border: 1px solid black;
+}
+
+#ledgerimg {
+    width: 200px;
+    height: 40px;
+}
+
+.popbtn {
+    position: absolute;
+    top: 82px;
+    width: 65px;
+    left: 123px;
+    background-color:rgb(147, 173, 123);
+    border-radius: 5px;
+    text-align:center;
+}
