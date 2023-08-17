@@ -1,0 +1,168 @@
+.masterform{
+    position:relative; 
+    color: black;  
+    padding: 8px 25px;
+    top: 18px; 
+    height: 403px; 
+    width: 297px; 
+    left: 995px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(165, 167, 153);
+    z-index: 399;
+}
+
+.childform{
+    position:relative; 
+    color: black;  
+    padding: 8px 25px;
+    top: 18px; 
+    height: 403px; 
+    width: 297px; 
+    left: 995px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(165, 167, 153);
+    z-index: 398;
+}
+
+#myCanvas {
+    position: relative;
+    height: 195px;
+    width: 260px;
+    top: 20px;
+    left: 1013px;
+    border: 1px solid rgb(14, 13, 13); 
+}
+
+#video {
+    position: absolute;
+    height: 195px;
+    width: 300px;
+    top: 70px;
+    left: 993px;
+}
+
+#submit {
+    position: relative;
+    top: -55px;
+    right: 0px;
+    height: 35px;
+    width: 125px;
+    border-radius: 10px;
+    padding: 1px;
+    z-index: 400;
+}
+
+#submit2 {
+    position: relative;
+    top: -55px;
+    right: 0px;
+    height: 35px;
+    width: 125px;
+    border-radius: 10px;
+    padding: 1px;
+    z-index: 400;
+}
+
+#masterload {
+    position: relative;
+    top: 410px;
+    right: -410px;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    background-color: gray;
+    padding: 1px;
+    z-index: 400;
+}
+
+#childload {
+    position: relative;
+    top: 410px;
+    right: -430px;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    background-color: gray;
+    padding: 1px;
+    z-index: 400;
+}
+
+.action-button{
+    position:relative;
+    right: -800px;
+    height: 30px;
+    top: 60px;
+    width: 148px;
+    display:inline-block;
+    border:0.17em solid #4e7396;
+    border-radius: 5px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight:600;
+    color:#000000;
+    background-color: gray;
+    z-index: 400;
+}
+.action-button:hover{
+    border-color:#0e25f0;
+}
+.action-button:active{
+    background-color: rgb(6, 122, 25);
+}
+
+.action-button2{
+    position:relative;
+    right: -523px;
+    height: 30px;
+    top: 60px;
+    width: 60px;
+    display:inline-block;
+    border:0.17em solid #4e7396;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-size: 14px;
+    font-family:'Segoe UI','Roboto',sans-serif;
+    font-weight:600;
+    color:#000000;
+    background-color:gray;
+    text-align:center;
+    z-index: 400;
+    }
+.action-button2:hover{
+    border-color:#0e25f0;
+}
+.action-button2:focus{
+    background-color:rgb(65, 136, 65);
+}
+
+.action-button1{
+    position:relative;
+    right: -527px;
+    height: 30px;
+    top: 60px;
+    width: 60px;
+    display:inline-block;
+    border:0.17em solid #4e7396;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-size: 14px;
+    font-family:'Segoe UI','Roboto',sans-serif;
+    font-weight:600;
+    color:#000000;
+    background-color:gray;
+    text-align:center;
+    z-index: 400;
+    }
+.action-button1:hover{
+    border-color:#0e25f0;
+}
+.action-button1:focus{
+    background-color:rgb(65, 136, 65);
+}
