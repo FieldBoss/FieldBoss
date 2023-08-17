@@ -1,0 +1,13 @@
+.location {
+    position: relative;
+    top: -660px;
+    left: 792px;
+    height: 25px;
+    width: 200px;
+    z-index: 400;
+    font-size:12px;
+    font-style: italic;
+    color: blue;
+  }
+
+  
